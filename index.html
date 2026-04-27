@@ -39,13 +39,159 @@
 <div class="container">
   <h1>My Restaurant</h1>
 
-  <div class="menu">
-    <h3>Menu</h3>
-    <p><span>Pizza</span> <span>Rs. 500</span></p>
-    <p><span>Burger</span> <span>Rs. 250</span></p>
-    <p><span>Momo</span> <span>Rs. 150</span></p>
-    <p><span>Tea</span> <span>Rs. 50</span></p>
-  </div>
+  
+    <div id="menu" class="page hidden">
+        <section class="pt-28 pb-16">
+            <div class="container mx-auto px-4">
+                <div class="bg-white rounded-xl shadow-sm ..." data-aos="fade-up"></div>
+                <h2 class="text-[clamp(2rem,5vw,3.5rem)] font-bold mb-12 text-center">Our Menu</h2>
+
+                <!-- Coffee Section -->
+                <h3 class="text-2xl font-semibold mb-6 text-primary border-b pb-2">Coffee & Beverages</h3>
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-16">
+                    <div class="bg-white rounded-xl shadow-sm overflow-hidden hover:shadow-md transition group">
+                        <img src="espresso.jpg" alt="Espresso" class="w-full h-48 object-cover group-hover:scale-105 transition duration-500">
+                        <div class="p-4">
+                            <div class="flex justify-between items-center mb-2">
+                                <h4 class="font-semibold text-lg">Espresso</h4>
+                                <span class="font-medium text-primary">Rs. 120</span>
+                            </div>
+                            <p class="text-stone-600 text-sm">Single or double shot</p>
+                        </div>
+                    </div>
+                    
+
+                    <div class="bg-white rounded-xl shadow-sm overflow-hidden hover:shadow-md transition group">
+                        <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?q=80" alt="Americano" class="w-full h-48 object-cover group-hover:scale-105 transition duration-500">
+                        <div class="p-4">
+                            <div class="flex justify-between items-center mb-2">
+                                <h4 class="font-semibold text-lg">Americano</h4>
+                                <span class="font-medium text-primary">Rs. 230
+                                
+                                </span>
+                            </div>
+                            <p class="text-stone-600 text-sm">Espresso with hot water</p>
+                        </div>
+                    </div>
+
+                    <div class="bg-white rounded-xl shadow-sm overflow-hidden hover:shadow-md transition group">
+                        <img src="https://images.unsplash.com/photo-1485808191679-5f86510681a2?q=80" alt="Cappuccino" class="w-full h-48 object-cover group-hover:scale-105 transition duration-500">
+                        <div class="p-4">
+                            <div class="flex justify-between items-center mb-2">
+                                <h4 class="font-semibold text-lg">Cappuccino</h4>
+                                <span class="font-medium text-primary">Rs. 210</span>
+                            </div>
+                            <p class="text-stone-600 text-sm">Classic with steamed milk foam</p>
+                        </div>
+                    </div>
+
+                    <div class="bg-white rounded-xl shadow-sm overflow-hidden hover:shadow-md transition group">
+                        <img src="latte.jpg" alt="Cafe Latte" class="w-full h-48 object-cover group-hover:scale-105 transition duration-500">
+                        <div class="p-4">
+                            <div class="flex justify-between items-center mb-2">
+                                <h4 class="font-semibold text-lg">Cafe Latte</h4>
+                                <span class="font-medium text-primary">Rs. 230</span>
+                            </div>
+                            <p class="text-stone-600 text-sm">Smooth with creamy milk</p>
+                        </div>
+                    </div>
+
+                    <div class="bg-white rounded-xl shadow-sm overflow-hidden hover:shadow-md transition group">
+                        <img src="https://images.unsplash.com/photo-1578314675249-a6910f80cc4e?q=80" alt="Cold Coffee" class="w-full h-48 object-cover group-hover:scale-105 transition duration-500">
+                        <div class="p-4">
+                            <div class="flex justify-between items-center mb-2">
+                                <h4 class="font-semibold text-lg">Cold Coffee</h4>
+                                <span class="font-medium text-primary">Rs. 200</span>
+                            </div>
+                            <p class="text-stone-600 text-sm">Iced blended coffee</p>
+                        </div>
+                    </div>
+
+                    <div class="bg-white rounded-xl shadow-sm overflow-hidden hover:shadow-md transition group">
+                        <img src="https://images.unsplash.com/photo-1571934811356-5cc061b6821f?q=80" alt="Masala Chiya" class="w-full h-48 object-cover group-hover:scale-105 transition duration-500">
+                        <div class="p-4">
+                            <div class="flex justify-between items-center mb-2">
+                                <h4 class="font-semibold text-lg">Nepali Masala Chiya</h4>
+                                <span class="font-medium text-primary">Rs. 80</span>
+                            </div>
+                            <p class="text-stone-600 text-sm">Traditional spiced milk tea</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Food Section -->
+                <h3 class="text-2xl font-semibold mb-6 text-primary border-b pb-2">Food Items</h3>
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <div class="bg-white rounded-xl shadow-sm overflow-hidden hover:shadow-md transition group">
+                        <img src="https://images.unsplash.com/photo-1528735602780-2552fd46c7af?q=80" alt="Sandwich" class="w-full h-48 object-cover group-hover:scale-105 transition duration-500">
+                        <div class="p-4">
+                            <div class="flex justify-between items-center mb-2">
+                                <h4 class="font-semibold text-lg">Club Sandwich</h4>
+                                <span class="font-medium text-primary">Rs. 350</span>
+                            </div>
+                            <p class="text-stone-600 text-sm">Triple decker with chicken & egg</p>
+                        </div>
+                    </div>
+
+                    <div class="bg-white rounded-xl shadow-sm overflow-hidden hover:shadow-md transition group">
+                        <img src="cheese burger.jpg" alt="Burger" class="w-full h-48 object-cover group-hover:scale-105 transition duration-500">
+                        <div class="p-4">
+                            <div class="flex justify-between items-center mb-2">
+                                <h4 class="font-semibold text-lg">Chicken Cheese Burger</h4>
+                                <span class="font-medium text-primary">Rs. 420</span>
+                            </div>
+                            <p class="text-stone-600 text-sm">With fries and sauce</p>
+                        </div>
+                    </div>
+
+                    <div class="bg-white rounded-xl shadow-sm overflow-hidden hover:shadow-md transition group">
+                        <img src="momo.jpg" alt="Momo" class="w-full h-48 object-cover group-hover:scale-105 transition duration-500">
+                        <div class="p-4">
+                            <div class="flex justify-between items-center mb-2">
+                                <h4 class="font-semibold text-lg">Chicken Momo</h4>
+                                <span class="font-medium text-primary">Rs. 280</span>
+                            </div>
+                            <p class="text-stone-600 text-sm">Steamed, fried or kothey</p>
+                        </div>
+                    </div>
+
+                    <div class="bg-white rounded-xl shadow-sm overflow-hidden hover:shadow-md transition group">
+                        <img src="mushroom pasta.jpg'.webp" alt="Pasta" class="w-full h-48 object-cover group-hover:scale-105 transition duration-500">
+                        <div class="p-4">
+                            <div class="flex justify-between items-center mb-2">
+                                <h4 class="font-semibold text-lg">Mushroom Pasta</h4>
+                                <span class="font-medium text-primary">Rs. 450</span>
+                            </div>
+                            <p class="text-stone-600 text-sm">Alfredo or red sauce</p>
+                        </div>
+                    </div>
+
+                    <div class="bg-white rounded-xl shadow-sm overflow-hidden hover:shadow-md transition group">
+                        <img src="Dal-Bhat-with-Rice-and-Tadka.jpg" alt="Dal Bhat" class="w-full h-48 object-cover group-hover:scale-105 transition duration-500">
+                        <div class="p-4">
+                            <div class="flex justify-between items-center mb-2">
+                                <h4 class="font-semibold text-lg">Dal Bhat Platter</h4>
+                                <span class="font-medium text-primary">Rs. 380</span>
+                            </div>
+                            <p class="text-stone-600 text-sm">Traditional Nepali thali set</p>
+                        </div>
+                    </div>
+
+                    <div class="bg-white rounded-xl shadow-sm overflow-hidden hover:shadow-md transition group">
+                        <img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?q=80" alt="Chocolate Cake" class="w-full h-48 object-cover group-hover:scale-105 transition duration-500">
+                        <div class="p-4">
+                            <div class="flex justify-between items-center mb-2">
+                                <h4 class="font-semibold text-lg">Chocolate Cake</h4>
+                                <span class="font-medium text-primary">Rs. 400</span>
+                            </div>
+                            <p class="text-stone-600 text-sm">Fresh homemade cake</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
 
   <h3>Scan to Order</h3>
   <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://yourwebsite.com" alt="QR Code">
